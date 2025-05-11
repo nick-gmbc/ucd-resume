@@ -1,0 +1,23 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Tagesschrift&display=swap");
+
+
+header {
+    margin:0;
+}
+
+
+
+.logo {
+    transform: translateY(0px);
+    background: url("../images/old_dude.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 5s ease-in-out;
+
+}
+
+
+
