@@ -51,6 +51,10 @@ header {
 
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 
 .logo {
     transform: translateY(0px);
@@ -145,3 +149,27 @@ footer {
     margin: 0px;
 }
 
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+    /*font-size: 20px;
+    padding-left: 10px;*/
+}
+
+.social-links {
+    margin:0px;
+}
+
+/* Stops an indent before the social icons*/
+
+ul {
+    margin-block-start: 0em;
+    padding-inline-start: 0px;
+}
