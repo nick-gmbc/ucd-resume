@@ -164,7 +164,31 @@ footer {
 }
 
 .social-links {
-    margin:0px;
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px ;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover  {
+    background-color: #e84610;
+    /*font-size: 20px;
+    padding-left: 10px;*/
+}
+
+#footer-details {
+    padding: 20px;
 }
 
 /* Stops an indent before the social icons*/
